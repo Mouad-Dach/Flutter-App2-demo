@@ -4,45 +4,40 @@ import 'package:demo_app_2/widgets/mydrawer.widget.dart';
 class ContactsPage extends StatelessWidget {
   final List<Map<String, String>> contacts = [
     {
-      'name': 'Saad El Mabrouk',
-      'email': 'saad.elmabrouk@icloud.com',
-      'phone': '+212 612345678'
+      'name': 'Mouad Dach',
+      'email': 'mouad.dach@example.com',
+      'phone': '+212 65332102'
     },
-    {
-      'name': 'Kylian Mbappe.',
-      'email': 'k.mbappe@realmadrid.com',
-      'phone': '+34 623456789'
-    },
-    {
-      'name': 'Fede Valverdi',
-      'email': 'f.valverde@example.com',
-      'phone': '+34 634510290'
-    },
-    {
-      'name': 'Arda Guler',
-      'email': 'a.guler@realmadrid.com',
-      'phone': '+34 634712890'
-    },
-    {
-      'name': 'Brahim Diaz',
-      'email': 'b.diaz@realmadrid.com',
-      'phone': '+34 634567890'
-    },
-    {
-      'name': 'Achraf Hakimi',
-      'email': 'a.hakimi@psg.com',
-      'phone': '+33 630123890'
-    },
-    {
-      'name': 'Yassine bounou',
-      'email': 'y.bounou@hilal.com',
-      'phone': '+966 630123890'
-    },
-    {
-      'name': 'Dean Huijsen',
-      'email': 'd.huijsen@realmadrid.com',
-      'phone': '+34 630123980'
-    },
+     {
+          "name": "Rachid Benjelloun",
+          "email": "r.benjelloun@example.com",
+          "phone": "+212 634510290"
+        },
+        {
+          "name": "Said El Amrani",
+          "email": "s.elamrani@example.com",
+          "phone": "+212 634712890"
+        },
+        {
+          "name": "Hamid Bensalem",
+          "email": "h.bensalem@example.com",
+          "phone": "+212 634567890"
+        },
+        {
+          "name": "Khalid El Idrissi",
+          "email": "k.elidrissi@example.com",
+          "phone": "+212 630123890"
+        },
+        {
+          "name": "Nabil Bouziane",
+          "email": "n.bouziane@example.com",
+          "phone": "+212 630123891"
+        },
+        {
+          "name": "Anas El Fassi",
+          "email": "a.elfassi@example.com",
+          "phone": "+212 630123980"
+        },
   ];
 
   @override
